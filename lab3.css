@@ -1,0 +1,110 @@
+body { /*Background of webpage is a different color!*/
+    background-color: rgb(22, 7, 7);
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerfooter { /*Both header and footer contain a different type of div with class headerfooter and are styled differently. Text is centered, they are both different colors from the rest of the page
+    and have Margin/Padding*/
+    width:100%;
+    background-color: rgb(73, 42, 42);
+    text-align: center;
+    margin:10px;
+    padding: 30px;
+    color: rgb(206, 206, 206);
+    border-radius: 8px;
+}
+
+body {
+    font-family: "Tahoma", sans-serif; /* Clean and readable custom font family */ 
+}
+
+
+section {
+    display:flex;
+}
+
+div h1 {
+    text-align: center;
+}
+
+/* Give the main and sidebar content margin and padding through universal div tag*/
+div {
+    margin:10px 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(131, 131, 131);
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+#MainContent { /*Main content (section with fields) has a percent width*/
+    width:75%;
+    font-weight: bold;
+}
+
+/* Some form styling */
+form {
+    padding: 10px;
+}
+
+form input {
+    margin: 10px;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#Sidebar { /*Sidebar also uses percent width, adjusted margin specically to push it more to the right of the page*/
+    background-color: rgb(91, 140, 155);
+    width: 25%;
+    margin: 10px 5px;
+}
+
+#Sidebar ul li { /* Some adjusting to the text formatting */
+    text-align: left;
+    margin-left: 0; 
+    padding-left: 10px; 
+}
+
+#name:focus { /*Focus makes it larger when typing name, and unfocus makes it shrink*/
+    width:30%;
+}
+
+#Nav { /*Nav styling*/
+    background-color: rgb(70, 0, 0);
+    border-style: none;
+    width:100%;
+    padding: 5px 0px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#Sidebar:hover { /*Sidebar changes when hovered*/
+    background-color: rgb(21, 101, 250);
+}
+
+a { /*Nav link styling*/
+    text-decoration: none;
+    color: rgb(224, 222, 222);
+    background-color: transparent;
+    border-radius: 8px;
+    padding:20px;
+}
+
+a:hover { /*Nav link styling on hover*/
+    background-color: azure;
+    color: red;
+    
+}
+
+#Nav ul { /* No bullet points in the list */
+    display: flex;
+    list-style: none;
+}
+
+#Nav ul li {
+   margin-right: 10px;
+}
